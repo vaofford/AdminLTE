@@ -253,7 +253,7 @@ a:focus {
   font-family: fontAwesome;
 }
 .main-header .sidebar-toggle:before {
-  content: "\f0c9";
+  /*content: "\f0c9";*/
 }
 .main-header .sidebar-toggle:hover {
   color: #fff;
@@ -2054,19 +2054,22 @@ a:focus {
 }
 .info-box-number {
   display: block;
-  font-weight: bold;
-  font-size: 18px;
+  //font-weight: bold;
+  //font-size: 18px;
+  font-size: 16px;
 }
 .progress-description,
 .info-box-text {
   display: block;
-  font-size: 14px;
+  //font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .info-box-text {
-  text-transform: uppercase;
+  //text-transform: uppercase;
 }
 .info-box-more {
   display: block;
